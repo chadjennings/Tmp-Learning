@@ -4,6 +4,8 @@ function dataOut = AddRow(data, row, rowNum)
 % numbering scheme,  Starting at 1.
 % if dataIn is m by n then dataOut is (m+1) by n
 
+% first line of code change
+
 [m,n] = size(data);
 
 if (rowNum < 0) 
